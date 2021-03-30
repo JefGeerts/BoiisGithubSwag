@@ -6,6 +6,66 @@
     --navbar-bg-contrast: rgba(0,0,0,1);
 }
 
+body {
+    margin: 0;
+    font-size: 100%;
+    line-height: 1rem;
+    font-family: Lato, sans-serif;
+    color: #9b9b9b;
+    display: grid;
+    grid-template-rows: 4rem 600px;
+}
+
+body>* {
+    grid-column: 1;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.photo-grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.photo {
+    display: grid;
+}
+
+.photo>* {
+    grid-column: 1;
+}
+
+.photo-image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    grid-row: 1 / span 2;
+}
+
+.photo-likes {
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    grid-row: 2;
+}
+
+.photo-info {
+    background-color: white;
+    padding: 1rem;
+    color: #565d64;
+    line-height: 1.5rem;
+}
+
+.photo-info p {
+    margin: 0;
+}
+
 .logohead {
     font-family: 'Roboto Mono', monospace;
     color:darkblue;
