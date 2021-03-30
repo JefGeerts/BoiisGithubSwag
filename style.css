@@ -1,4 +1,11 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+:root {
+    --navbar-bg-color: rgba(255,255,255,1);
+    --navbar-text-color: rgba(0,0,0);
+    --navbar-text-color-focus: darkblue;
+    --navbar-bg-contrast: rgba(0,0,0,1);
+}
+
 body {
     margin: 0;
     font-size: 100%;
@@ -57,13 +64,6 @@ body>* {
 
 .photo-info p {
     margin: 0;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
-:root {
-    --navbar-bg-color: rgba(255,255,255,1);
-    --navbar-text-color: rgba(0,0,0);
-    --navbar-text-color-focus: darkblue;
-    --navbar-bg-contrast: rgba(0,0,0,1);
 }
 
 .logohead {
@@ -265,5 +265,4 @@ a {
     #navbar .navbar-link:last-child {
         margin-right: 0;
     }
->>>>>>> abc34c573e3b5bf4b02f7d7f9e0ad570a581961b
 }
